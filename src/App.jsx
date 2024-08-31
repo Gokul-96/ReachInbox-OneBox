@@ -1,15 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginPage from './components/Login/LoginPage';
-import './styles/login.css';
+import Onebox from './components/Onebox/Onebox';
 
 const App = () => {
   return (
     <Router>
-      <Route>
-        <Route exact path="/login" component={LoginPage} />
-        <Route path="/" render={() => <div>Home Page</div>} />
-      </Route>
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/onebox" element={<Onebox />} />
+      </Routes>
     </Router>
   );
 };
