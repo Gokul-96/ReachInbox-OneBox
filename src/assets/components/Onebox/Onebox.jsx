@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReplyForm from './ReplyForm';
-import './onebox.css';
+import './Onebox.css';
 
 const Onebox = () => {
   const [threads, setThreads] = useState([]);
