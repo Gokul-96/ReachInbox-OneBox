@@ -28,8 +28,8 @@ const LoginPage = () => {
           />
           <button className="create-account-button">Create an Account</button>
           <div className="links">
-           
-            <a href="/signin" className="link">Already have an account? sign In</a>
+            <a href="/signin" className="link">Sign In</a>
+            <a href="/signup" className="link">Sign Up</a>
           </div>
         </div>
         <Footer />
@@ -37,6 +37,5 @@ const LoginPage = () => {
     </GoogleOAuthProvider>
   );
 };
-
 
 export default LoginPage;
