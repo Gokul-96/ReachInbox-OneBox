@@ -1,6 +1,6 @@
 import React from 'react';
-import logo1 from '../../assets/images/header-logo.png';
-import '../../styles/login.css';
+import logo1 from '../../images/Logo1.png';
+import './login.css';
 
 
 

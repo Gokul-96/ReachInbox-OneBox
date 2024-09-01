@@ -1,6 +1,6 @@
 import React from 'react';
 // import Logo2 from '../../assets/images/xquare-labs-bw.png';
-import '../../styles/login.css';
+import './login.css';
 
 const Footer = () => {
   return (
